@@ -1,0 +1,131 @@
+body {
+    background-color:lightgrey; 
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+div.register {
+    display: flex;
+    height: calc(100% - 240px);
+    justify-content:space-evenly;
+    align-items: center;
+    margin:auto;
+    width: 1000px;  
+    flex-wrap:wrap;
+    /* padding: 100px; */
+    height: calc(100% - 240px);
+}
+
+div.titre {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    padding: 20px;
+    /* margin: 20px; */
+    width: 350px;
+    height: 250px;
+    /* flex-grow: 1; */
+}
+
+ul {    
+    text-align: center;
+    padding: 0px;
+    padding-left: 0 !important;    
+}
+
+ul>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    background-color: white !important;
+}
+
+ul>li>a:hover {
+    font-weight: bold;
+    background-color: white !important;
+}
+
+h4 {
+    margin: auto;
+    width:300px; 
+    text-align: center;   
+}
+
+.banhead {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcfafb;
+}
+
+div.image {
+    background:url("php.png") no-repeat;
+    height: 80px;
+    width: 194px;
+    margin-left: 5px;
+}
+
+.baniere {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+}
+
+.baniere>.banleft {
+    display: flex;
+    column-gap: 20px;
+    padding-left: 20px;
+    align-items: center;
+    width: 900px;
+}
+
+.baniere>.banleft>a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.baniere>.banleft>a {
+    text-decoration: none;
+    color: white;
+}
+
+.baspage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+.baspage>.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width : 600px;
+    color: white;
+}
+
+.copyright>a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright>a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
