@@ -17,7 +17,7 @@ div.register {
     width: 1000px;  
     flex-wrap:wrap;
     /* padding: 100px; */
-    height: calc(100% - 240px);
+    /* height: calc(100% - 240px); */
 }
 
 div.titre {
@@ -28,7 +28,8 @@ div.titre {
     padding: 20px;
     /* margin: 20px; */
     width: 350px;
-    height: 250px;
+    height: 280px;
+    padding: 20px;
     /* flex-grow: 1; */
 }
 
